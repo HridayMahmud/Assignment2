@@ -359,6 +359,9 @@ border: 0;
 .img-container{
     position: relative;
 }
+.img-container img{
+    border-radius: 16px;
+}
 .offer-block{
 position: absolute;
 width: 324px;
