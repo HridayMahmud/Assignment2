@@ -356,6 +356,34 @@ border: 0;
     justify-content: space-between;
     gap: 24px;
 }
+.img-container{
+    position: relative;
+}
+.offer-block{
+position: absolute;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+right: 10px;
+bottom:52px;
+text-align: center;
+
+}
+.offer-title{
+    color: #FFF;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 400;
+}
+.offer-text{
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+}
+
 /* footer-section-style */
 footer{
     background: rgba(19, 19, 24, 0.05);

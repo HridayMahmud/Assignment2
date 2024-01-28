@@ -1,5 +1,8 @@
 
 @media screen and (max-width:600px) {
+    *{
+        box-sizing: border-box;
+    }
     nav {
         flex-direction: column;
     }
@@ -7,12 +10,13 @@
     ul li{
         display: none;
     }
+    
     .type-style{
         flex-direction: column;
         background-color: lightblue;
         margin-top: 20px;
         width: 100%;
-        padding:20px;
+      
         margin: 0 auto;
         text-align: center;
       
@@ -20,6 +24,7 @@
    
     .popular-tour-section{
         flex-direction: column;
+       
     }
     .text-container{
          width: 100%;
@@ -53,9 +58,7 @@
    width: 100%;
    }
  
- .popular-tour-section{
-    padding: 20px;
- }
+
 
  .tour-text-title{
     font-size: 20px;
@@ -99,10 +102,15 @@
 .perfectplace-section{
     flex-direction: column;
 } 
+.perfectplace-text-container{
+    padding: 20px;
+   
+}
 .newsletter{
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+
 
 }
 .form-container{
@@ -120,6 +128,22 @@
 .img-container img{
    width: 100%;
    height:auto;
+  
+}
+.offer-block{
+    width: 214.023px;
+    height: 79.268px;
+    bottom: 40px;
+    right: 9px;
+
+ 
+}
+.offer-title{
+    font-size: 15px;
+
+}
+.offer-text{
+    font-size: 21px;
 }
 .contact-text-container{
     width: 100%;
@@ -140,7 +164,7 @@
 .card-text{
     width: 100%;
     margin:0 auto;
-    text-align: center;
+   
 }
 
 footer{
@@ -162,6 +186,9 @@ footer{
 }
 
 @media screen and (min-width:610px) and (max-width:992px) {
+    *{
+        box-sizing: border-box;
+    }
     .perfectplace-section{
         flex-direction: column;
     } 
@@ -183,7 +210,13 @@ footer{
    
     .popular-tour-section{
         flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
     }
+    .popular-tour-section img{
+        width: 100%;
+        margin:0 auto;
+     }
     .text-container{
         width: 100%;
         padding-top:50px;
@@ -217,25 +250,14 @@ footer{
      
       
     }
-   
-.tour-section-text{
-    max-width: 340px;
-    padding: 0px 20px 0px 20px;
 
-}
-.popular-tour-section{
-    width: 100%;
-   
-}
 
- .tour-text-title{
-    font-size: 20px;
-    text-align:center;
- }
  .destination-text{
-    padding:40px 40px;
-    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
  }
+
  .place-view{
     padding: 30px;
  }
@@ -281,6 +303,11 @@ footer{
     width: 100%;
     margin: 0 auto;
 }
+.card{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
 .card1{
     grid-column: 1/ span 4;
 }
@@ -295,11 +322,14 @@ footer{
     margin:0 auto;
     text-align: center;
 }
-
+.perfectplace-text-container{
+    padding: 20px;
+   
+}
 .newsletter{
     flex-direction: column;
     width: 100%;
-    margin: 0 auto;
+ 
     margin: 0px 20px 0px 20px;
 
 }
@@ -309,6 +339,26 @@ footer{
     text-align: center;
     padding:20px;
     margin: 0 auto;
+}
+.img-container img{
+    width: 100%;
+    height:auto;
+    margin: 0 auto;
+ }
+
+footer{
+    width: 100%;
+    padding: 0;
+  
+ 
+    
+}
+.footer-text-container{
+    width:50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+
 }
  
 }
