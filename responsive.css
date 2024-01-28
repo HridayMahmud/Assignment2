@@ -152,6 +152,11 @@
     padding: 0;
 }
 
+.card{
+    width: 100%;
+    margin: 0 auto;
+    margin-top:20px;
+}
 .card1{
     grid-column: 1/ span 4;
 }
@@ -307,6 +312,7 @@ footer{
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 20px;
 }
 .card1{
     grid-column: 1/ span 4;
