@@ -203,12 +203,12 @@ border:0;
 .place-view img{
     width: 100%;
 }
-.parent1,.parent2,.parent3, .parent4, .parent5, .parent6,.parent7{
+.parent1, .parent2, .parent3, .parent4, .parent5, .parent6, .parent7{
     position: relative;
    
 }
 
-.parent1 p , .parent2 p,.parent3 p, .parent4 p, .parent6 p, .parent7 p{
+.parent1 p , .parent2 p, .parent3 p, .parent4 p, .parent6 p, .parent7 p{
     position: absolute;
     top: 50%;
     font-size: 28px;
